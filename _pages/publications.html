@@ -1,36 +1,16 @@
 ---
 layout: archive
-title: "Publications"
-permalink: /publications/
+title: "Research"
+permalink: /research/
 author_profile: true
+redirect_from:
+  - /publications/
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+<ol class="research-list">
+  <li>Predictive-Context LOO: Bayesian Model Comparison with Pretrained Predictive Learners <span>(link forthcoming)</span></li>
+  <li><a href="https://arxiv.org/abs/2602.09061">Coherent Information Deletion: Bayesian, Generalized Bayesian and Possibilistic Unlearning</a></li>
+  <li><a href="https://arxiv.org/abs/2609.17908">Cross Validation for the Log Gaussian Cox Process</a></li>
+  <li><a href="https://arxiv.org/abs/2609.00670">Deterministic Leave-One-Cluster-Out Cross-Validation for Multilevel Bayesian Structural Equation Models</a></li>
+  <li><a href="https://www.tandfonline.com/doi/full/10.1080/02664763.2025.2606972">Efficient Bayesian variable selection with reversible jump MCMC in imaging genetics: an application to schizophrenia</a></li>
+</ol>
