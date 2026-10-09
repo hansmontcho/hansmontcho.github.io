@@ -21,7 +21,7 @@ repository               : "hansmontcho/hansmontcho.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "bio.jpeg"
+  avatar           : "hans-montcho.png"
   name             : "Hans Montcho"
   pronouns         : # example: "she/her"  
   bio              : "PhD Candidate in Statistics"

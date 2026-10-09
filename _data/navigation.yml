@@ -9,19 +9,10 @@ main:
     url: /publications/
 
   - title: "Talks"
-    url: /talks/    
+    url: /talks/
 
-  - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Projects"
-    url: /portfolio/
-        
-  - title: "Blog Posts"
+  - title: "Blog"
     url: /year-archive/
-    
+
   - title: "CV"
     url: /cv/
-    
-  - title: "Other Projects"
-    url: /markdown/
