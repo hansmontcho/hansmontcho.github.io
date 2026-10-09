@@ -432,6 +432,48 @@
   }
 }
 
+.talk-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5em 0;
+
+  .talk-list__item {
+    display: grid;
+    grid-template-columns: 7.5em minmax(0, 1fr);
+    gap: 1em;
+    margin-bottom: 1.5em;
+  }
+
+  .talk-list__date {
+    font-size: 0.85em;
+    color: $gray;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .talk-list__title {
+    font-size: 1em;
+    font-weight: normal;
+    text-decoration: none;
+
+    &:hover, &:focus {
+      text-decoration: underline;
+    }
+  }
+
+  .talk-list__details {
+    margin: 0.3em 0 0;
+    font-size: 0.8em;
+    color: $dark-gray;
+  }
+
+  @media (max-width: 600px) {
+    .talk-list__item {
+      grid-template-columns: 1fr;
+      gap: 0.2em;
+    }
+  }
+}
+
 .page__related-title {
   margin-bottom: 10px;
   font-size: $type-size-6;
