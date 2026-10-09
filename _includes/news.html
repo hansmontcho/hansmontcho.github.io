@@ -1,0 +1,5 @@
+<section class="news" aria-labelledby="news-heading">
+  <h2 id="news-heading">News</h2>
+  {% include news-list.html items=site.data.news %}
+  <p><a href="{{ '/old-news/' | relative_url }}">Old news &rarr;</a></p>
+</section>

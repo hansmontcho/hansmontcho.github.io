@@ -1,0 +1,15 @@
+---
+layout: single
+title: "Old news"
+permalink: /old-news/
+author_profile: true
+---
+
+<div class="news">
+  {% if site.data.old_news.size > 0 %}
+    {% include news-list.html items=site.data.old_news %}
+  {% else %}
+    <p>Older updates will be added here soon.</p>
+  {% endif %}
+</div>
+<p><a href="{{ '/' | relative_url }}">&larr; Recent news</a></p>

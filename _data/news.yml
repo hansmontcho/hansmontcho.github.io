@@ -1,0 +1,45 @@
+# List entries newest first.
+- date: "08-10-26"
+  text: >-
+    New Preprint: “Predictive-Context LOO: Bayesian Model Comparison with Pretrained Predictive Learners” (arXiv link forthcoming).
+  authors: >-
+    **H Montcho**, M Filippone
+- date: "08-10-26"
+  text: >-
+    New Preprint: [“Coherent Information Deletion: Bayesian, Generalized Bayesian and Possibilistic Unlearning”](https://arxiv.org/abs/2602.09061).
+  authors: >-
+    **H Montcho**, H Rue, M Filippone
+- date: "01-10-26"
+  text: >-
+    New Preprint: [“Deterministic Leave-One-Cluster-Out Cross-Validation for Multilevel Bayesian Structural Equation Models”](https://arxiv.org/abs/2609.00670).
+  authors: >-
+    [M Alhyari](https://arxiv.org/search/stat?searchtype=author&query=Alhyari,+M), [H Jamil](https://arxiv.org/search/stat?searchtype=author&query=Jamil,+H), [**H Montcho**](https://arxiv.org/search/stat?searchtype=author&query=Montcho,+H), [H Rue](https://arxiv.org/search/stat?searchtype=author&query=Rue,+H)
+- date: "15-09-26"
+  text: >-
+    New Preprint: [“Cross Validation for the Log Gaussian Cox Process”](https://arxiv.org/abs/2609.17908).
+  authors: >-
+    **H Montcho**, H Rue, F Lindgren, D Bolin, E Krainski, D Castro-Camilo, S Martino
+- date: "17-06-26"
+  text: >-
+    Conference: Presenting “Cross Validation for the Log Gaussian Cox Process” at [Geomed 2026](https://geomed-conference.com/), Pamplona, Spain.
+- date: "08-06-26"
+  text: >-
+    Conference: Presenting “Cross Validation for the Log Gaussian Cox Process” at [METMA XII](https://metma12.unizar.es/), Zaragoza, Spain.
+- date: "01-06-26"
+  text: >-
+    New Job: I joined the [Bayesian Deep Learning Group](https://bdl.kaust.edu.sa/) as a Postdoctoral Researcher.
+- date: "29-04-26"
+  text: >-
+    Officially **Dr Montcho**: I defended my PhD dissertation, [“On Cross Validation, Log Gaussian Cox Process and Variational Bayes”](https://cemse.kaust.edu.sa/events/by-type/phd-dissertation-defense/2026/04/29/cross-validation-log-gaussian-cox-process-and).
+- date: "28-03-26"
+  text: >-
+    Visited [Antonietta Mira](https://scholar.google.com/citations?user=848dFBMAAAAJ&hl=it) at the Università della Svizzera italiana. Lugano, Switzerland.
+- date: "25-03-26"
+  text: >-
+    Visited [Roberto Casarin](https://scholar.google.com/citations?user=5bEU2N4AAAAJ&hl=it) at [Ca' Foscari University of Venice](https://scholar.google.com/citations?view_op=view_org&hl=it&org=11794432880506001054) and gave a talk on [“Skewed posterior approximations for latent Gaussian models using orthogonal polynomials and variational Bayes”](https://www.unive.it/data/33113/3/110892).
+- date: "19-03-26"
+  text: >-
+    Visited [Bruno Scarpa](https://scholar.google.com/citations?user=7MmEu0MAAAAJ&hl=it) at the University of Padova and gave a talk on [“Cross Validation for the Log Gaussian Cox Process”](https://www.stat.unipd.it/sites/stat.unipd.it/files/Abstract_Montcho.pdf). Padova, Italy.
+- date: "16-03-26"
+  text: >-
+    Visited [Silvia Figini](https://www.researchgate.net/profile/Silvia-Figini) and [Elena Ballante](https://scholar.google.com/citations?user=ylN4I_AAAAAJ&hl=it) at the University of Pavia and gave a talk on “Optimal information deletion and Bayes' theorem.” Pavia, Italy.

@@ -1,0 +1,13 @@
+  <ul class="news__list">
+    {% for item in include.items %}
+      <li class="news__item">
+        <span class="news__date">{{ item.date | escape }}</span>
+        <div class="news__text">
+          {{ item.text | markdownify }}
+          {% if item.authors %}
+            <div class="news__authors">{{ item.authors | markdownify }}</div>
+          {% endif %}
+        </div>
+      </li>
+    {% endfor %}
+  </ul>

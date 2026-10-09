@@ -394,6 +394,44 @@
   }
 }
 
+.news {
+  margin-top: 2em;
+
+  .news__list {
+    padding: 0;
+    list-style: none;
+  }
+
+  .news__item {
+    display: grid;
+    grid-template-columns: 9em minmax(0, 1fr);
+    gap: 0.75em;
+    margin-bottom: 1em;
+    font-size: 0.9em;
+  }
+
+  .news__date {
+    color: $gray;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .news__text p {
+    margin: 0;
+  }
+
+  .news__authors {
+    margin-top: 0.25em;
+    font-size: 0.9em;
+  }
+
+  @media (max-width: 600px) {
+    .news__item {
+      grid-template-columns: 1fr;
+      gap: 0.15em;
+    }
+  }
+}
+
 .page__related-title {
   margin-bottom: 10px;
   font-size: $type-size-6;
