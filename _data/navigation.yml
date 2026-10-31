@@ -12,7 +12,7 @@ main:
     url: /talks/
 
   - title: "Blog"
-    url: /year-archive/
+    url: /blog/
 
   - title: "CV"
     url: /cv/

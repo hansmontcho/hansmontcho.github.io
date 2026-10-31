@@ -1,7 +1,6 @@
 ---
 title: 'Checking the effect of your Meridian MMM priors without refitting the model multiple times'
 date: 2026-10-31
-permalink: /posts/2026/10/prior-sensitivity-meridian/
 excerpt: 'Fit your Meridian MMM once, then reweight the saved posterior draws to see the effect of a different prior, instead of refitting.'
 tags:
   - marketing mix modeling
