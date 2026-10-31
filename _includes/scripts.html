@@ -2,5 +2,14 @@
 
 {% include analytics.html %}
 
-<!-- MathJax: renders the math that kramdown outputs as \( ... \) and \[ ... \] -->
-<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>
+<script>
+  // Light/dark toggle: the initial theme is set in head/custom.html
+  document.addEventListener('click', function (e) {
+    var toggle = e.target.closest('#theme-toggle');
+    if (!toggle) return;
+    e.preventDefault();
+    var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    try { localStorage.setItem('theme', next); } catch (err) {}
+  });
+</script>

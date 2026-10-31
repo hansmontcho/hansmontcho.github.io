@@ -1,0 +1,123 @@
+/* ==========================================================================
+   Dark theme
+   Active when <html data-theme="dark">. The choice is set in
+   _includes/head/custom.html (saved choice, else the system preference)
+   and switched by the #theme-toggle link in the masthead.
+   ========================================================================== */
+
+$dark-bg          : #16181a;
+$dark-bg-raised   : #1f2326;
+$dark-border      : #2f3438;
+$dark-text        : #d4d7da;
+$dark-text-strong : #eceef0;
+$dark-text-muted  : #9aa1a7;
+$dark-link        : #5bb5cc;
+$dark-link-hover  : #8fd1e2;
+
+/* theme toggle (both themes) */
+#theme-toggle {
+  display: inline-block;
+  cursor: pointer;
+  line-height: 1;
+  .theme-icon-sun { display: none; }
+  .theme-icon-moon { display: inline-block; }
+}
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+
+  #theme-toggle {
+    .theme-icon-sun { display: inline-block; }
+    .theme-icon-moon { display: none; }
+  }
+
+  body {
+    background-color: $dark-bg;
+    color: $dark-text;
+  }
+
+  h1, h2, h3, h4, h5, h6, strong, b,
+  .page__title, .archive__item-title, .archive__item-title a {
+    color: $dark-text-strong;
+  }
+
+  a {
+    color: $dark-link;
+    &:hover { color: $dark-link-hover; }
+    &:visited { color: $dark-link; }
+  }
+
+  hr, .page__footer, .page__meta, .page__date, .archive__subtitle {
+    border-color: $dark-border;
+  }
+
+  .page__meta, .page__date, .archive__item-excerpt, .page__footer, .page__footer-copyright, .page__footer-follow {
+    color: $dark-text-muted;
+  }
+
+  .masthead {
+    background: $dark-bg;
+    border-bottom-color: $dark-border;
+  }
+
+  .greedy-nav, .masthead__inner-wrap, .toc {
+    background: $dark-bg;
+    border-color: $dark-border;
+  }
+
+  .masthead__menu-item a, .greedy-nav a, .greedy-nav .visible-links a {
+    color: $dark-text-muted;
+    &:hover { color: $dark-text-strong; }
+  }
+
+  .greedy-nav .hidden-links {
+    background: $dark-bg-raised;
+    border-color: $dark-border;
+    &:before { border-color: $dark-border transparent; }
+  }
+
+  .author__urls {
+    background: $dark-bg-raised;
+    border-color: $dark-border;
+  }
+
+  .sidebar, .author__content, .author__bio, .author__urls-wrapper, .author__urls li a {
+    color: $dark-text-muted;
+  }
+
+  blockquote {
+    color: $dark-text-muted;
+    border-left-color: $dark-border;
+  }
+
+  code, pre, kbd, samp,
+  div.highlighter-rouge, figure.highlight {
+    background-color: $dark-bg-raised;
+    border-color: $dark-border;
+    color: $dark-text;
+  }
+
+  div.highlighter-rouge:before, figure.highlight:before {
+    background-color: $dark-border;
+  }
+
+  /* default code text: the light theme's grey-green is too dim on dark */
+  .highlight, .highlight pre, .highlight code, .highlight .n, .highlight .p, .highlight .nn, .highlight .nx, .highlight .w {
+    color: $dark-text;
+    background: transparent;
+  }
+
+  table, th, td {
+    border-color: $dark-border;
+  }
+  thead, th {
+    background-color: $dark-bg-raised;
+    color: $dark-text-strong;
+  }
+
+  /* figures are drawn on a light background: soften them and round the corners */
+  .page__content img {
+    border-radius: 4px;
+    filter: brightness(0.92);
+  }
+}
